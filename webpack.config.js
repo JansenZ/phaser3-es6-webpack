@@ -17,7 +17,7 @@ var definePlugin = new webpack.DefinePlugin({
 module.exports = {
     entry: {
         app: [
-            path.resolve(__dirname, 'src/main.js')
+            path.resolve(__dirname, 'src/main2.js')
         ],
         vendor: ['phaser']
     },
