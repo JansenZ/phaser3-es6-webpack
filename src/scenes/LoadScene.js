@@ -242,9 +242,13 @@ class BootScene extends Phaser.Scene {
 
         // 添加图像
         this.add.image(0, 100, 'background-clouds');
-        this.add.text(0, 380, 'I AM A NORMAL TTTEXT', { fontSize: '19px' });
+        this.add.text(0, 380, 'I AM A NORMAL TTTEXT', {
+            fontSize: '19px'
+        });
         this.make.text({
-            x: { randInt: [0, 200] },
+            x: {
+                randInt: [0, 200]
+            },
             y: 420,
             text: 'THIS TEXT IS MAKED'
         });
